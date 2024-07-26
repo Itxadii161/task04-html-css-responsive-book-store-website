@@ -178,3 +178,54 @@ section p{
                 top: -135px;
                 border: none;
         }
+    }
+
+        /* Books Collection */
+    
+         #Books{
+            position: relative;
+            padding-top: 50px;
+            padding-left: 20px;
+            padding-bottom: 30px;
+            font-size: x-large;
+        }    
+         .card-group{
+            display: flex;
+            margin-top: -20px;
+            margin-bottom: 30px;
+        }
+       
+        .card-group .card{
+            width: 400px;
+            height: 550px;
+            padding: 30px;
+            background-color: #e5edf3;
+            margin: 10px;
+            border: 1px solid #436e92;
+        }
+        .card-img-top{
+            width: 300px;
+            height: 327px;
+        }
+        .card-body{
+                background-color: #373b3e39;
+        }
+        .card-body .card-title{
+            background-color: #373b3e39;
+            color: white;
+            text-align: center;
+            height: 60px;
+            padding-top: 10px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        .card button{
+            background-color: #373b3e39;
+            color: rgb(255, 255, 255);
+            height: 7vh;
+            width: 10vw;
+            display: block;
+            margin: 0 auto;
+            padding-top: 10px;
+            margin-bottom: 10px;
+        } 
